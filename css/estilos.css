@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.cabecera{
+    background: url(../images/66937-portada2.jpeg);
+}
+a{
+    text-decoration: none;
+    
+}
+.margenes-internos{
+    padding: 0px 50px;
+}
+.contenedor-padre{
+   display: flex;
+   flex-flow: column nowrap;
+}
+.logo{
+    text-align: center;
+    flex: 1 1 auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+    .logo a{
+        color: blueviolet;
+        font-size: 30px;
+
+    }
+        .logo a:hover{
+            color: #000;
+        }
+.imagenes{
+    width: 60%;
+    margin: 25px 200px;
+}
+.nav{
+               
+    flex: 5 1 auto;
+}
+    .nav a{
+        color: blueviolet;
+        font-size: 13;
+        text-transform: uppercase;
+        padding: 0 30px;
+    }
+        .nav a:hover{
+            color: black;
+
+        }
+
+.texto-prin{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}  
+
+    
+h3{
+    font-size: 20;
+
+}
+.seccion{
+    background: rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-flow: row nowrap;
+
+
+}
+.articulos{
+    background: url(../images/AC26WXXMVZFEPIK3HJ7PRMMHKY.jpg);
+    flex:  1 1 auto;
+    font-size: 13px;
+    letter-spacing: 1px;
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+h2{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding: 5px;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+      
+.son-articulo{
+        
+    flex: 1 1 40%;
+    padding: 7px;
+}
+
+img{
+    width: 80%;
+    margin: 25px 150px;
+}
+
+h3{
+    background: white;
+    color: black;
+    padding: 6px;
+
+}
+               
+.pie-pag{
+    background: black;
+    display: flex;
+    justify-content: center;
+}
+.pie{
+        background: rgb(133, 182, 200);
+        font-family: 'Courier New', Courier, monospace;
+        
+}
+    .pie a{
+        color: #000;
+        font-size: 25px;
+    }
